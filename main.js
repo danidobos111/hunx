@@ -1,6 +1,6 @@
 function checkPassword() {
-    let password = document.getElementById("passwordBox");
-    let passwordText = atob("RGFuaTAx");
+    var password = document.getElementById("passwordBox");
+    let passwordText = atob("OTg2MzQy");
     if(password.value == passwordText)
     {
        return true;
